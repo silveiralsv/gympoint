@@ -1,8 +1,8 @@
 Arguments: 
-  /home/lucas/.nvm/versions/node/v13.1.0/bin/node /home/lucas/.yarn/bin/yarn.js add bcryptjs
+  /home/lucas/.nvm/versions/node/v13.1.0/bin/node /home/lucas/.yarn/bin/yarn.js add jsonwebtoken
 
 PATH: 
-  /home/lucas/.yarn/bin:/home/lucas/.config/yarn/global/node_modules/.bin:/home/lucas/.zplugin/polaris/bin:/home/lucas/.yarn/bin:/home/lucas/.config/yarn/global/node_modules/.bin:/home/lucas/.zplugin/polaris/bin:/home/lucas/.nvm/versions/node/v13.1.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+  /home/lucas/.yarn/bin:/home/lucas/.config/yarn/global/node_modules/.bin:/home/lucas/.zplugin/polaris/bin:/home/lucas/.nvm/versions/node/v13.1.0/bin:/home/lucas/bin:/usr/local/bin:/home/lucas/.yarn/bin:/home/lucas/.config/yarn/global/node_modules/.bin:/home/lucas/.zplugin/polaris/bin:/home/lucas/.nvm/versions/node/v13.1.0/bin:/home/lucas/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 
 Yarn version: 
   1.19.1
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: http://dev01.martonis.net:11000/bcryptjs: ETIMEDOUT
+  Error: http://dev01.martonis.net:11000/jsonwebtoken: ETIMEDOUT
       at Timeout._onTimeout (/home/lucas/.yarn/lib/cli.js:141224:19)
       at listOnTimeout (internal/timers.js:531:17)
       at processTimers (internal/timers.js:475:7)

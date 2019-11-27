@@ -1,3 +1,6 @@
+/* eslint-disable import/no-named-as-default */
+// eslint-disable-next-line import/no-named-as-default
+// eslint-disable-next-line import/no-named-as-default-member
 import User from '../models/User';
 
 class UserController {
@@ -9,9 +12,6 @@ class UserController {
     }
 
     const { id, name, email } = await User.create(req.body);
-    console.log('TCL: UserController -> store -> email', email);
-    console.log('TCL: UserController -> store -> name', name);
-    console.log('TCL: UserController -> store -> id', id);
 
     return res.json({ id, name, email });
   }
